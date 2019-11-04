@@ -8,7 +8,24 @@
     <title>GitHub Finder</title>
 </head>
 <body>
-    
+    <nav class="navbar navbar-dark bg-primary mb-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">GitHub Finder</a>
+        </div>
+    </nav>
+    <div class="container searchContainer">
+        <div class="search card card-body">
+            <h1>Search GitHub Users</h1>
+            <p class="lead">Enter a username to fetch a user profile and repos</p>
+            <input type="text" placeholder="GitHub Username..." id="searchUser" class="form-control">
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="mt-5 p-3 text-center" style="background: #f3f3f3;">
+        GitHub Finder &copy; <a href="https://www.msaqer.com" target="_blank">M-Saqer</a>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
