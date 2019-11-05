@@ -2,7 +2,7 @@
 
 it's a training project through JS Course
 
-UI built with HTML and CSS (Skeleton) Functionality with JS
+UI built with HTML and CSS (Bootswatch) Functionality with JS
 
 Deployed by GitHub Pages
 
